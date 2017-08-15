@@ -10,7 +10,7 @@
 ## About Me
 
 * Data Scientist at Datascope Analytics
-* Instructor at Metis
+* Data Viz Instructor at Metis
 
 ---
 
