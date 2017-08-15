@@ -3,7 +3,7 @@
 
 ### How to Get Started
 
-1. Download "starter.html" and "cheese_doctorate.csv" and save it in a folder
+1. Download "starter.html" and "cheese_engineers.csv" and save it in a folder
 2. Use Terminal (Mac) or Command Prompt (PC), which both represent the command line, and you'll want to go to the folder you added the files to.
 	* For both Macs and PCs, you'll use the ```cd``` command 
 3. Once there, start a local server 
