@@ -27,8 +27,6 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
  * [Word Clouds](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=We)
  * [Network Graphs](http://bl.ocks.org/mbostock/4062045)
  * [Map Projections](https://www.jasondavies.com/maps/transition/)
- * But also [Hierarchical Edge Bundling?](http://bl.ocks.org/mbostock/1044242) [???](https://bl.ocks.org/mbostock/280d83080497c8c13152)
-
 
 ## Why D3?
 
