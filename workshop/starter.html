@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<style type="text/css">
+
+  svg {
+    border:1px solid #f0f;
+  }
+
+.axis .tick {
+  stroke-width:0.5px;
+  stroke-opacity: .5;
+}
+
+.axis path {
+  stroke: none;
+}
+
+.line {
+  stroke: black;
+  fill: none;
+  stroke-width: 1.5;
+  /*opacity: .5;*/
+}
+
+.axis.cheese text {
+  fill: red;
+}
+
+</style>
+
+<body>
+</body>
+
+<script>
+
+var margin = {top: 20, right: 40, bottom: 30, left: 40};
+
+var width = 900 - margin.left - margin.right,
+    height = 250 - margin.top - margin.bottom;
+
+var svg = d3.select("body").append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+d3.csv("cheese_engineers.csv", ready)
+
+function ready(error, data) {
+
+  if (error) return console.warn(error);
+
+  console.log(data)
+
+
+}
+
+
+</script>
