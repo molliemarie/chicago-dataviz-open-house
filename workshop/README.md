@@ -1,6 +1,10 @@
 # Workshop!
 ---
 
+We will be re-creating this chart from [Spurious Correlations](http://www.tylervigen.com/spurious-correlations):
+
+<img src="images/chart.png" width="700">
+
 ### How to Get Started
 
 1. Download "starter.html" and "cheese_engineers.csv" and save it in a folder
