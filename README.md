@@ -11,6 +11,8 @@
 
 * Data Scientist at Datascope Analytics
 * Instructor at Metis
+* Trekkie
+* Lindy hop (swing) dancer
 
 ---
 
