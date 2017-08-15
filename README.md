@@ -34,8 +34,6 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 
 D3 is not a monolithic framework that seeks to provide every conceivable feature. Instead, D3 solves the crux of the problem: efficient manipulation of documents based on data. This avoids proprietary representation and affords extraordinary flexibility, exposing the full capabilities of web standards such as HTML, SVG, and CSS. With minimal overhead, D3 is extremely fast, supporting large datasets and dynamic behaviors for interaction and animation. D3’s functional style allows code reuse through a diverse collection of components and plugins.
 
-Let's go head-to-head with [Google Charts](https://docs.google.com/spreadsheets/d/12DRY_7u_IgkoNqjI-42RUjWIuHmXq2SDk9Av13d1yns/edit) vs [D3](localhost:8000)
-
 ## Prerequisites 
 
 * HTML
