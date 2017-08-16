@@ -70,8 +70,8 @@ In case you're asking yourself who some of the people above are...
 * [Word Tree](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=we)
 * [In This Season’s N.F.L., Two Breeds of Quarterbacks](http://www.nytimes.com/interactive/2013/02/03/sports/football/in-this-years-nfl-a-new-breed-of-quarterback.html)
  * [Is it Better to Buy or Rent?](https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
- * Traditional Charting: [Bar Chart](https://bl.ocks.org/mbostock/3885304), [Scatterplots](https://bl.ocks.org/mbostock/3887118), [Line Charts](https://bl.ocks.org/mbostock/3883245), etc.
  * [Star Trek network graph](https://datascopeanalytics.com/startrekviz/)
+ * Traditional Charting: [Bar Chart](https://bl.ocks.org/molliemarie/cc9471c43ae44bcc1592c418921c391c), [Scatterplots](https://bl.ocks.org/mbostock/3887118), [Line Charts](https://bl.ocks.org/molliemarie/c7a263e631bb55f555beb2bbd0c00bdf), etc.
 
 # Course Syllabus
 
