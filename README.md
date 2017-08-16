@@ -35,9 +35,7 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
 D3 is not a monolithic framework that seeks to provide every conceivable feature. Instead, D3 solves the crux of the problem: efficient manipulation of documents based on data. This avoids proprietary representation and affords extraordinary flexibility, exposing the full capabilities of web standards such as HTML, SVG, and CSS. With minimal overhead, D3 is extremely fast, supporting large datasets and dynamic behaviors for interaction and animation. D3’s functional style allows code reuse through a diverse collection of components and plugins.
 
 **from dashingd3js.com:**
-You should use D3.js because it lets you build the data visualization framework that you want. Graphic / Data Visualization frameworks make a great deal of decisions to make the framework easy to use. D3.js focuses on binding data to DOM elements.
-
-D3.js is written in JavaScript and uses a functional style which means you can reuse code and add specific functions to your heart's content. Which means it is as powerful as you want to make it. How you chose to style, manipulate, and make interactive the data is up to you.
+You should use D3.js because it lets you build the data visualization framework that you want. Graphic / Data Visualization frameworks make a great deal of decisions to make the framework easy to use. D3.js focuses on binding data to DOM elements. D3.js is written in JavaScript and uses a functional style which means you can reuse code and add specific functions to your heart's content. Which means it is as powerful as you want to make it. How you chose to style, manipulate, and make interactive the data is up to you.
 
 ## When should you use D3?
 You should use D3.js when your webpage is interacting with data. D3 stands for Data Driven Documents. 
