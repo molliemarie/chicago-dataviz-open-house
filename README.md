@@ -71,7 +71,6 @@ In case you're asking yourself who some of the people above are...
  * [Word Tree](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=we)
  * [Is it Better to Buy or Rent?](https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
  * Traditional Charting: [Bar Chart](https://bl.ocks.org/mbostock/3885304), [Scatterplots](https://bl.ocks.org/mbostock/3887118), [Line Charts](https://bl.ocks.org/mbostock/3883245), etc.
- * [Interactive sites](http://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
  * [Star Trek network graph](https://datascopeanalytics.com/startrekviz/)
 
 # Course Syllabus
