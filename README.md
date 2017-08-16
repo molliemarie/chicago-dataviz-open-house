@@ -67,8 +67,8 @@ In case you're asking yourself who some of the people above are...
  * [Mapping the Spread of Drought Across the U.S.](https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html?abt=0002&abg=0)
  * [Voting Habits of Americans Like You](https://www.nytimes.com/interactive/2016/06/10/upshot/voting-habits-turnout-partisanship.html)
  * [Money, Race and Success: How Your School District Compares](https://www.nytimes.com/interactive/2016/04/29/upshot/money-race-and-success-how-your-school-district-compares.html?rref=collection%2Fbyline%2Famanda-cox&action=click&contentCollection=undefined&region=stream&module=stream_unit&version=latest&contentPlacement=5&pgtype=collection)
- * [In This Season’s N.F.L., Two Breeds of Quarterbacks](http://www.nytimes.com/interactive/2013/02/03/sports/football/in-this-years-nfl-a-new-breed-of-quarterback.html)
- * [Word Tree](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=we)
+* [Word Tree](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=we)
+* [In This Season’s N.F.L., Two Breeds of Quarterbacks](http://www.nytimes.com/interactive/2013/02/03/sports/football/in-this-years-nfl-a-new-breed-of-quarterback.html)
  * [Is it Better to Buy or Rent?](https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
  * Traditional Charting: [Bar Chart](https://bl.ocks.org/mbostock/3885304), [Scatterplots](https://bl.ocks.org/mbostock/3887118), [Line Charts](https://bl.ocks.org/mbostock/3883245), etc.
  * [Star Trek network graph](https://datascopeanalytics.com/startrekviz/)
