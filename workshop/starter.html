@@ -5,9 +5,15 @@
 
 <style type="text/css">
 
-  svg {
-    border:1px solid #f0f;
-  }
+/*Stylings*/
+
+:root {
+    --highlight-color:red;
+}
+
+svg {
+  border:1px solid #f0f;
+}
 
 .axis .tick {
   stroke-width:0.5px;
@@ -28,6 +34,14 @@
   fill: red;
 }
 
+.cheese-circle {
+  fill: var(--highlight-color);
+}
+
+.line.cheese {
+  stroke: var(--highlight-color);
+}
+
 </style>
 
 <body>
@@ -35,6 +49,7 @@
 
 <script>
 
+// Define margin conventions
 var margin = {top: 20, right: 40, bottom: 30, left: 40};
 
 var width = 900 - margin.left - margin.right,
@@ -46,6 +61,11 @@ var svg = d3.select("body").append("svg")
   .append("g")
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+// *********************
+// NEW CODE GOES IN HERE
+// *********************
+
+// transform data into D3-ready json
 d3.csv("cheese_engineers.csv", ready)
 
 function ready(error, data) {
@@ -54,6 +74,9 @@ function ready(error, data) {
 
   console.log(data)
 
+  // *********************
+  // NEW CODE GOES IN HERE
+  // *********************
 
 }
 
