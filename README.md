@@ -47,7 +47,7 @@ D3.js is a javascript library added to the front-end of your web application. Yo
 
 ## Fancy Examples
 
-### Fancy D3 Examples
+### Galleries, Blogs, Bl.ocks, and News Sites
  * [D3 Examples gallery](https://github.com/mbostock/d3/wiki/Gallery)
  * [Mike Bostock's Interactive Essays](https://bost.ocks.org/mike/)
  * [Mike Bostock's Bl.ocks](https://bl.ocks.org/mbostock)
