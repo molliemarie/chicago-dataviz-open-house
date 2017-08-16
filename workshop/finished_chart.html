@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+
+<style type="text/css">
+
+:root {
+    --highlight-color:red;
+}
+
+svg {
+  border:1px solid #f0f;
+}
+
+.axis .tick {
+  stroke-width:0.5px;
+  stroke-opacity: .5;
+}
+
+.axis path {
+  stroke: none;
+}
+
+.line {
+  stroke: black;
+  fill: none;
+  stroke-width: 1.5;
+}
+
+.axis.cheese text {
+  fill: var(--highlight-color);
+}
+
+.cheese-circle {
+  fill: var(--highlight-color);
+}
+
+.line.cheese {
+  stroke: var(--highlight-color);
+}
+
+</style>
+
+<body>
+</body>
+
+<script>
+
+var margin = {top: 20, right: 40, bottom: 30, left: 40};
+
+var width = 900 - margin.left - margin.right,
+    height = 250 - margin.top - margin.bottom;
+
+var svg = d3.select("body").append("svg")
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var xScale = d3.scaleLinear()
+  .domain([1999, 2010])
+  .range([0, width]);
+
+var cheeseScale = d3.scaleLinear()
+  .domain([9, 12])
+  .range([height, 0]);
+
+var doctorateScale = d3.scaleLinear()
+  .domain([400, 1000])
+  .range([height, 0])
+
+var xAxis = d3.axisBottom(xScale)
+  .tickFormat(d3.format("d"));
+
+var cheeseAxis = d3.axisLeft(cheeseScale)
+  .ticks(4)
+  .tickSize(-width);
+
+var doctorateAxis = d3.axisRight(doctorateScale)
+  .ticks(4)
+  .tickSize(0);
+
+d3.csv("cheese_engineers.csv", ready)
+
+function ready(error, data) {
+
+  if (error) return console.warn(error);
+
+  svg.append("g")
+    .attr("class","x axis")
+    .attr("transform","translate(0," + height + ")")
+    .call(xAxis);
+
+  svg.append("g")
+    .attr("class","cheese axis")
+    .call(cheeseAxis);
+
+  svg.append("g")
+    .attr("class","doctorate axis")
+    .attr("transform", "translate(" + width + ",0)") 
+    .call(doctorateAxis);
+
+  var cheeseCircle = svg.selectAll('.cheese-circle')
+    .data(data).enter().append('circle')
+    .attr('class', 'cheese-circle')
+    .attr('r', 5)
+    .attr("cx", function(d) { return xScale(d.year); })
+    .attr("cy", function(d) { return cheeseScale(d.cheese); });
+
+  var cheeseLineGenerator = d3.line()
+    .x(function(d) { return xScale(d.year)})
+    .y(function(d) { return cheeseScale(d.cheese)})
+    .curve(d3.curveCardinal);
+
+  var cheesePath = svg.append('path')
+    .datum(data)
+    .attr('class', 'cheese line')
+    .attr('d', cheeseLineGenerator(data));
+
+  var doctorateCircle = svg.selectAll('.doctorate-circle')
+    .data(data).enter().append('circle')
+    .attr('class', 'doctorate-circle')
+    .attr('r', 5)
+    .attr("cx", function(d) { return xScale(d.year); })
+    .attr("cy", function(d) { return doctorateScale(d.doctorates); });
+
+  var doctorateLineGenerator = d3.line()
+    .x(function(d) { return xScale(d.year)})
+    .y(function(d) { return doctorateScale(d.doctorates)})
+    .curve(d3.curveCardinal);
+
+  var doctoratePath = svg.append('path')
+    .datum(data)
+    .attr('class', 'line')
+    .attr('d', doctorateLineGenerator(data));
+}
+
+
+</script>
