@@ -25,12 +25,20 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
  * [Word Clouds](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=We)
  * [Network Graphs](http://bl.ocks.org/mbostock/4062045); also, [Star Trek network graph](https://datascopeanalytics.com/startrekviz/)
  * [Map Projections](https://www.jasondavies.com/maps/transition/)
+ 
+ 
+## Who Develops D3?
+[Mike Bostock](https://bost.ocks.org/mike/) wrote [D3.js](https://d3js.org) based on his work during his PhD studies at the Stanford Visualization Group. Mike worked at the The New York Times for a while and is now independently working on D3.js. You can find Mike's github profile [here](https://github.com/mbostock) and his twitter profile [here](https://twitter.com/mbostock). While he wrote the library, there have been and continue to be many active contributors adding a diverse set of components and plugins. 
 
 ## Why D3?
-
 **from D3.js...**
-
 D3 is not a monolithic framework that seeks to provide every conceivable feature. Instead, D3 solves the crux of the problem: efficient manipulation of documents based on data. This avoids proprietary representation and affords extraordinary flexibility, exposing the full capabilities of web standards such as HTML, SVG, and CSS. With minimal overhead, D3 is extremely fast, supporting large datasets and dynamic behaviors for interaction and animation. D3’s functional style allows code reuse through a diverse collection of components and plugins.
+
+## When should you use D3?
+You should use D3.js when your webpage is interacting with data. D3 stands for Data Driven Documents. 
+
+## Where is D3 used?
+D3.js is a javascript library added to the front-end of your web application. Your back-end (the server) will generate the necessary data. The part of the application the users interact with (the front-end) will use D3.js.
 
 ## Prerequisites 
 
