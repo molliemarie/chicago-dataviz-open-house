@@ -11,8 +11,9 @@
 
 * Data Scientist at Datascope Analytics
 * Data Viz Instructor at Metis
-* [LinkedIn](https://www.linkedin.com/in/molliempettit)
-* [Github](https://github.com/molliemarie)
+* LinkedIn: [Mollie Pettit](https://www.linkedin.com/in/molliempettit)
+* Github: [molliemarie](https://github.com/molliemarie)
+* Twitter: [MollzMP](https://twitter.com/MollzMP)
 
 ---
 
