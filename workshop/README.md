@@ -31,3 +31,8 @@ For this reason, it is much more reliable to load your page via a web server. Al
  * [Scatterplot example](https://bl.ocks.org/mbostock/3887118)
  * [D3 Path](https://github.com/d3/d3-path)
  * More on [D3 Path](https://www.dashingd3js.com/svg-paths-and-d3js)
+ 
+### Finished Product:
+In the event that you get lost during the workshop, you can downlowd the "finished product" that we will create in this class (called finished_chart.html). I would recommend, however, that you do your best to not look at the finished product, and instead try to follow along during the workshop as we go.
+
+We will not be adding any user interaction into the class today as there just isn't time for this in an intro workshop. I went ahead and threw in some quick interactions, though, and posted it to [this bl.ocks](https://bl.ocks.org/molliemarie/815014f9028b494728d5e161ee01cffb) so you can see how some simple interactions might be added.
