@@ -10,9 +10,7 @@
 ## About Me
 
 * Data Scientist at Datascope Analytics
-* Instructor at Metis
-* Trekkie
-* Lindy hop (swing) dancer
+* Data Viz Instructor at Metis
 
 ---
 
@@ -25,7 +23,7 @@ D3.js is a JavaScript library for manipulating documents based on data. D3 helps
  * [Interactive sites](http://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
  * [Bump Plots](http://bl.ocks.org/syntagmatic/8ab9dc27f144683bc015eb4a2639d234)
  * [Word Clouds](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=We)
- * [Network Graphs](http://bl.ocks.org/mbostock/4062045)
+ * [Network Graphs](http://bl.ocks.org/mbostock/4062045); also, [Star Trek network graph](https://datascopeanalytics.com/startrekviz/)
  * [Map Projections](https://www.jasondavies.com/maps/transition/)
 
 ## Why D3?
