@@ -48,12 +48,12 @@ D3.js is a javascript library added to the front-end of your web application. Yo
 ## Fancy Examples
 
 ### Fancy D3 Examples
- * D3 [Examples gallery](https://github.com/mbostock/d3/wiki/Gallery)
- * Mike Bostock's [Interactive Essays](https://bost.ocks.org/mike/)
- * Mike Bostock's [Bl.ocks](https://bl.ocks.org/mbostock)
- * Kevin Quealy's [Recent work](http://kpq.github.io/)
- * Kevin Quealy's [New York Times work](https://www.nytimes.com/by/kevin-quealy)
- * Amanda Cox's [New York Times](https://www.nytimes.com/by/amanda-cox)
+ * [D3 Examples gallery](https://github.com/mbostock/d3/wiki/Gallery)
+ * [Mike Bostock's Interactive Essays](https://bost.ocks.org/mike/)
+ * [Mike Bostock's Bl.ocks](https://bl.ocks.org/mbostock)
+ * [Kevin Quealy's Recent work](http://kpq.github.io/)
+ * [Kevin Quealy's New York Times work](https://www.nytimes.com/by/kevin-quealy)
+ * [Amanda Cox's New York Times](https://www.nytimes.com/by/amanda-cox)
  * [FiveThirtyEight](http://fivethirtyeight.com/)
  * [The Upshot](https://www.nytimes.com/section/upshot)
  
