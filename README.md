@@ -5,12 +5,14 @@
 **Dates:**   9/11/2017 - 10/18/2017 
 
 **Creator** Based on course materials by [Kevin Quealy](https://twitter.com/kevinq)  
-**Instructor:** [Mollie Pettit](https://www.linkedin.com/in/molliempettit)  
+**Instructor:** Mollie Pettit  
 
 ## About Me
 
 * Data Scientist at Datascope Analytics
 * Data Viz Instructor at Metis
+* [LinkedIn](https://www.linkedin.com/in/molliempettit)
+* [Github](https://github.com/molliemarie)
 
 ---
 
