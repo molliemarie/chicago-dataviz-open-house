@@ -20,3 +20,14 @@ We will be re-creating this chart from [Spurious Correlations](http://www.tylerv
 In some cases, you can view local HTML files directly in your web browser. However, some browsers have restrictions that prevent them from loading local files via JavaScript, for security reasons. That means if your D3 code is trying to pull in any external datafiles (like CSVs or JSON), it will fail with no good explanation. This isn’t D3’s fault; it’s a browser feature that prevents loading of scripts and other external files from third-party, untrusted websites.
 
 For this reason, it is much more reliable to load your page via a web server. Although you could use a remote web server, it is much, much faster to store and host everything locally (meaning, on the same computer, the one right in front of you). It is a strange idea, to use your local computer to host and serve files to itself, but you can think about it as the different programs talking to each other: the browser program requests files from the server program, which responds by serving them back.
+
+### Helpful Links:
+ * [Margin Conventions](https://bl.ocks.org/mbostock/3019563)
+ * [Data Joins](https://bost.ocks.org/mike/join/)
+ * [Chaining Syntax](http://alignedleft.com/tutorials/d3/chaining-methods)
+ * [How Selections Work](https://bost.ocks.org/mike/selection/)
+ * [D3 Scales](https://github.com/d3/d3/blob/master/API.md#scales-d3-scale)
+ * [D3 Axes](https://github.com/d3/d3-axis)
+ * [Scatterplot example](https://bl.ocks.org/mbostock/3887118)
+ * [D3 Path](https://github.com/d3/d3-path)
+ * More on [D3 Path](https://www.dashingd3js.com/svg-paths-and-d3js)
