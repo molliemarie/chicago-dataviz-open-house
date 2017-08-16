@@ -19,16 +19,7 @@
 
 # What is D3?
 **Data Driven Documents** 
-
 D3.js is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using HTML, SVG, and CSS. D3’s emphasis on web standards gives you the full capabilities of modern browsers without tying yourself to a proprietary framework, combining powerful visualization components and a data-driven approach to DOM manipulation.
-
- * Traditional Charting: [Bar Chart](https://bl.ocks.org/mbostock/3885304), [Scatterplots](https://bl.ocks.org/mbostock/3887118), [Line Charts](https://bl.ocks.org/mbostock/3883245), etc.
- * [Interactive sites](http://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
- * [Bump Plots](http://bl.ocks.org/syntagmatic/8ab9dc27f144683bc015eb4a2639d234)
- * [Word Clouds](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=We)
- * [Network Graphs](http://bl.ocks.org/mbostock/4062045); also, [Star Trek network graph](https://datascopeanalytics.com/startrekviz/)
- * [Map Projections](https://www.jasondavies.com/maps/transition/)
- 
  
 ## Who Develops D3?
 [Mike Bostock](https://bost.ocks.org/mike/) wrote [D3.js](https://d3js.org) based on his work during his PhD studies at the Stanford Visualization Group. Mike worked at the The New York Times for a while and is now independently working on D3.js. You can find Mike's github profile [here](https://github.com/mbostock) and his twitter profile [here](https://twitter.com/mbostock). While he wrote the library, there have been and continue to be many active contributors adding a diverse set of components and plugins. 
@@ -53,6 +44,35 @@ D3.js is a javascript library added to the front-end of your web application. Yo
 * Javascript
 
 ++A if you have experience with Web Dev, Design, Data Analysis and Github
+
+## Fancy Examples
+
+### Fancy D3 Examples
+ * D3 [Examples gallery](https://github.com/mbostock/d3/wiki/Gallery)
+ * Mike Bostock's [Interactive Essays](https://bost.ocks.org/mike/)
+ * Mike Bostock's [Bl.ocks](https://bl.ocks.org/mbostock)
+ * Kevin Quealy's [Recent work](http://kpq.github.io/)
+ * Kevin Quealy's [New York Times work](https://www.nytimes.com/by/kevin-quealy)
+ * Amanda Cox's [New York Times](https://www.nytimes.com/by/amanda-cox)
+ * [FiveThirtyEight](http://fivethirtyeight.com/)
+ * [The Upshot](https://www.nytimes.com/section/upshot)
+ 
+In case you're asking yourself who some of the people above are...
+ * Mike Bostock - former New York Times editor and creator of D3
+ * Kevin Quealy - graphics editor and reporter at New York Times
+ * Amanda Cox - editor of New York Time's The Upshot section
+ 
+### Let's look at some specific examples...
+ * [Where We Came From and Where We Went, State by State](https://www.nytimes.com/interactive/2014/08/13/upshot/where-people-in-each-state-were-born.html?abt=0002&abg=0)
+ * [Mapping the Spread of Drought Across the U.S.](https://www.nytimes.com/interactive/2014/upshot/mapping-the-spread-of-drought-across-the-us.html?abt=0002&abg=0)
+ * [Voting Habits of Americans Like You](https://www.nytimes.com/interactive/2016/06/10/upshot/voting-habits-turnout-partisanship.html)
+ * [Money, Race and Success: How Your School District Compares](https://www.nytimes.com/interactive/2016/04/29/upshot/money-race-and-success-how-your-school-district-compares.html?rref=collection%2Fbyline%2Famanda-cox&action=click&contentCollection=undefined&region=stream&module=stream_unit&version=latest&contentPlacement=5&pgtype=collection)
+ * [In This Season’s N.F.L., Two Breeds of Quarterbacks](http://www.nytimes.com/interactive/2013/02/03/sports/football/in-this-years-nfl-a-new-breed-of-quarterback.html)
+ * [Word Tree](https://www.jasondavies.com/wordtree/?source=obama.inauguration.2013.txt&prefix=we)
+ * [Is it Better to Buy or Rent?](https://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
+ * Traditional Charting: [Bar Chart](https://bl.ocks.org/mbostock/3885304), [Scatterplots](https://bl.ocks.org/mbostock/3887118), [Line Charts](https://bl.ocks.org/mbostock/3883245), etc.
+ * [Interactive sites](http://www.nytimes.com/interactive/2014/upshot/buy-rent-calculator.html)
+ * [Star Trek network graph](https://datascopeanalytics.com/startrekviz/)
 
 # Course Syllabus
 
